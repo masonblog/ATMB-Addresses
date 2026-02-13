@@ -42,7 +42,7 @@
     *   爬取全美所有州: `python ATMB_scrape.py --input us`
 *   **输出:** CSV 文件将保存在 `Public/` 文件夹中（例如 `Public/new-york.csv`）。
 
-#### 2. 补充单元号信息
+#### 2. 补充单元号信息（可选）
 运行 `ATMB_detail.py` 访问详情链接，为每个地址提取 Suite/Unit 信息。
 
 *   **命令:**
@@ -113,7 +113,7 @@ Run `ATMB_scrape.py` to crawl basic address information (Street, City, State, Zi
     *   Scrape all US states: `python ATMB_scrape.py --input us`
 *   **Output:** CSV files will be saved in the `Public/` folder (e.g., `Public/new-york.csv`).
 
-#### 2. Supplement Unit Information
+#### 2. Supplement Unit Information (Optional)
 Run `ATMB_detail.py` to visit detail URLs and extract Suite/Unit information for each address.
 
 *   **Command:**
